@@ -69,7 +69,10 @@ html {
   background-color: #fff; }
 
 /*estilo de bloque servicios*/
-.servicios {
+.servicios,
+.formulario,
+.us,
+.personal {
   background: url(../images/texture-1876097_1920.jpg);
   background-size: cover;
   height: auto;
@@ -109,14 +112,6 @@ html {
   height: 10vh;
   overflow: hidden; }
 
-.formulario {
-  background: url(../images/texture-1876097_1920.jpg);
-  background-size: cover;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  overflow: hidden; }
-
 .contact-form {
   background: rgba(139, 217, 218, 0.5); }
 
@@ -140,6 +135,26 @@ html {
 
 .iconos-titulo {
   font-size: 1.8rem; }
+
+/*seccion de nosotros*/
+.jumbotron {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif; }
+
+/*seccion del personal que pertenece a la clinica*/
+.personal-administrativo, .personal-medico {
+  height: 100%; }
+
+.personal span {
+  font-size: 100px;
+  color: #000;
+  background: none;
+  font-size: 30px; }
+
+.personal .card {
+  width: 20rem;
+  padding: 1rem; }
 
 /*empiezan los media queries*/
 @media (min-width: 991.98px) {
