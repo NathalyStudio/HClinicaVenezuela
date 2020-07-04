@@ -55,42 +55,131 @@
     </section>
     <!-- Seccion del formulario -->
     <section class="formulario py-3">
-        <div class="container formulario">
+        <div class="container contact-form">
+            <h2 class="h4 text-uppercase my-1">Formulario de contacto</h2>
             <div class="row abs-center">
                 <div class="col-12 px-auto">
                     <form class="px-auto">
                         <div class="form-row py-2 px-auto align-items-center">
+
                             <div class="col-sm-6 py-1">
-                                <input type="text" value="Nombre" class="form-control" id="nombre">
+                                <input type="text" value="Nombres" class="form-control" id="nombre">
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <input type="text" value="Apellido" class="form-control" id="apellido">
+                                <input type="text" value="Apellidos" class="form-control" id="apellido">
                             </div>
+
+                            <div class="col-sm-6 py-1">
+                                <input type="text" value="Teléfono de contacto" class="form-control"
+                                    id="telefono-cliente">
+                            </div>
+
                             <div class="col-sm-6 py-1">
                                 <input type="email" value="Email" class="form-control" id="email">
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <input type="text" value="Indique nombre del paciente" class="form-control"
+                                    id="nombre-paciente">
+                            </div>
+
+                            <div class="col-sm-6 py-1">
+                                <select class="custom-select" id="inlineFormCustomSelect">
                                     <option selected>Selecciona una opción...</option>
                                     <option value="1">Consulta sobre algún servicio</option>
                                     <option value="2">Presupuesto</option>
                                     <option value="3">Queja o sugerencia</option>
                                 </select>
                             </div>
+
                             <div class="col-sm-12 py-1">
-                                <textarea class="form-control" value="Escribre aqui" id="FormControlTextarea" rows="4"></textarea>
-                              </div>
+                                <textarea class="form-control" value="Escribre aqui" id="FormControlTextarea"
+                                    rows="4"></textarea>
+                            </div>
+
+                            <div class="col-sm-6 py-1">
+                                <label for="seguro">¿Posee seguro?</label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="con-seguro" name="radio-seguro"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="radio-con-seguro">Sí</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="sin-seguro" name="radio-seguro"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="sin-seguro">No</label>
+                                </div>
+                            </div>
+                            <input type="file" class="form-control-file col-sm-6 py-1" id="exampleFormControlFile1">
                             <div class="form-group form-check py-sm-1">
                                 <input type="checkbox" class="form-check-input p-auto">
-                                <label class="form-check-label p-auto" for="check-condiciones">Acepto las condiciones y términos de uso.</label>
+                                <label class="form-check-label p-auto" for="check-condiciones">Acepto las condiciones y
+                                    términos de uso.</label>
                             </div>
                             <button type="submit" class="btn btn-primary m-auto">Enviar</button>
                         </div>
+
                     </form>
                 </div>
             </div>
         </div>
     </section>
+    <!--Seccion de numeros telefonicos y datos de la empresa-->
+    <section class="datos-de-la-empresa">
+        <div class="container">
+            <h3 class="h2 text-uppercase py-2 text-center"><i class="fas fa-address-book iconos-titulo"></i> Datos de
+                contacto</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-center text-uppercase font-weight-bold py-1"><i
+                            class="fas fa-phone iconos-contacto"></i>
+                        Teléfonos<br></h5>
+                    <p class="text-center">
+                        00582125555555 <br> 00582123336666 <br> 00582513336666<br> 0800-2546483</p>
+                    <p class="text-center"><i class="fab fa-whatsapp iconos-contacto"></i> 00584141112233 <br>
+                        <i class="fab fa-telegram iconos-contacto"></i> 00584245559988 </p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center text-uppercase font-weight-bold py-1"><i
+                            class="fas fa-search-location iconos-contacto"></i> Ubicacion</h5>
+                    <p class="text-center"><strong>DISTRITO CAPITAL:</strong><br> cerca del sambil la Candelaria</p>
+                    <p class="text-center"><strong>LARA:</strong> <br>
+                        Barquisimeto: carrera 1 entre calles 10 y 11<br>
+                        Cabudare: sector la Mata entre calles 7 y 8.</p>
+                </div>
+                <div class="col-md-12">
+                    <h5 class="text-uppercase text-center py-1 font-weight-bold"><i
+                            class="fas fa-envelope iconos-contacto"></i>
+                        Email</h5>
+                    <p class="text-center">contactoalcliente@clinicavenezuela.com <br>sugerencias@clinicavenezuela.com
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---SECCION DE GOOGLE MAPS-->
+    <section class="google-maps">
+        <div class="container">
+            <h3 class="h2 text-uppercase py-2 text-center"><i class="fas fa-street-view iconos-titulo"></i> Google Maps
+            </h3>
+            <div class="pb-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d583.9580289597374!2d-69.29182112715863!3d10.06744807629126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1593877682555!5m2!1ses!2sve"
+                    width="100%" height="300%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="text-center py-3">
+        <div class="container">
+            <p class="font-weight-bold"><br>2020 ® Clínica Venezuela - Todos los derechos reservados. Web realizada por Andreina Rodriguez<br>
+            </p>
+        </div>
+    </footer>
     <!-- Script -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.5.1.min.js"> </script>

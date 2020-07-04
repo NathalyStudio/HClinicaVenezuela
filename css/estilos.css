@@ -117,6 +117,9 @@ html {
   height: fit-content;
   overflow: hidden; }
 
+.contact-form {
+  background: rgba(139, 217, 218, 0.5); }
+
 .abs-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,6 +130,16 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.iconos-contacto {
+  font-size: 1.2rem;
+  color: #19B7B9; }
+
+.google-maps {
+  background: url(../images/texture-1876097_1920.jpg); }
+
+.iconos-titulo {
+  font-size: 1.8rem; }
 
 /*empiezan los media queries*/
 @media (min-width: 991.98px) {

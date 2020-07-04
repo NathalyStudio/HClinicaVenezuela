@@ -135,13 +135,25 @@ html {
     overflow: hidden;
 }
 
+.contact-form {
+    background: rgba($color: #8BD9DA, $alpha: 0.5);
+}
+
 .abs-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
+.iconos-contacto{
+    font-size: 1.2rem;
+    color: #19B7B9;
+}
+.google-maps{
+    background: url(../images/texture-1876097_1920.jpg);
+}
+.iconos-titulo{
+    font-size: 1.8rem;
+}
 /*empiezan los media queries*/
 @media (min-width: 991.98px) {
     html {
